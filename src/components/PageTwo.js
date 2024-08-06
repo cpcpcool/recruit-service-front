@@ -12,11 +12,11 @@ const PageTwo = () => {
   };
 
   const handleNext = () => {
-    if (!formData.name || !formData.name.trim() === "") {
-      alert("값을 입력하시오.");
+    if (!formData.email || !formData.email.trim() === "") {
+      alert("이메일을 입력하시오.");
       return;
     }
-    if (/\s/.test(formData.name)) {
+    if (/\s/.test(formData.email)) {
       alert("공백을 넣을 수 없습니다.");
       return;
     }

@@ -13,7 +13,7 @@ const PageOne = () => {
 
   const handleNext = () => {
     if (!formData.name || !formData.name.trim() === "") {
-      alert("값을 입력하시오.");
+      alert("이름을 입력하시오.");
       return;
     }
 

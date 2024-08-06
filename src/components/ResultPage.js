@@ -28,7 +28,7 @@ const ResultPage = () => {
               <p>{applicant.email}</p>
               <p>{applicant.phone}</p>
               <p>{applicant.introduction}</p>
-              <p>{applicant.email}</p>
+              <p>{applicant.agree ? 1 : 0}</p>
             </div>
           ))
         ) : (
